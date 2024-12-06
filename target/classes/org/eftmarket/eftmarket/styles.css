@@ -1,0 +1,109 @@
+/* General styling for the application */
+.root {
+    -fx-background-color: #141414;
+    -fx-padding: 20px;
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for section labels */
+.section-header {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 0 0 10 0;
+}
+
+/* Styling for individual item containers */
+.item-container {
+    -fx-background-color: #1f1f1f;
+    -fx-padding: 15px;
+    -fx-spacing: 8px;
+    -fx-alignment: center;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.4, 0, 2);
+}
+
+/* Styling for ImageView elements */
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 15, 0.3, 0, 4);
+    -fx-border-radius: 8;
+    -fx-fit-width: 100;
+    -fx-fit-height: 100;
+}
+
+/* Styling for item names */
+.item-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0e0e0;
+    -fx-padding: 5 0 0 0;
+}
+
+/* Styling for item prices */
+.item-price {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffd700;
+    -fx-padding: 2 0 0 0;
+}
+
+/* Styling for the ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 10px;
+    -fx-hbar-policy: always;
+    -fx-vbar-policy: never;
+    -fx-fit-to-height: true;
+}
+
+/* Styling for the HBox that holds the items */
+.item-list {
+    -fx-spacing: 20px;
+    -fx-padding: 15px;
+}
+
+/* Adding hover effect for item containers */
+.item-container:hover {
+    -fx-background-color: #292929;
+    -fx-border-color: #ffd700;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #ffd700;
+    -fx-text-fill: #141414;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 15;
+}
+.button:hover {
+    -fx-background-color: #ffcc00;
+}
+
+/* Styling for badge labels (like weapon type tags) */
+.badge {
+    -fx-background-color: #333333;
+    -fx-text-fill: #ffd700;
+    -fx-font-size: 12px;
+    -fx-padding: 3 8;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Vendor Avatar Styling */
+.vendor-avatar {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.4, 0, 2);
+    -fx-border-radius: 20;
+    -fx-padding: 3;
+    -fx-fit-width: 30;
+    -fx-fit-height: 30;
+}
+
+/* Styling for item descriptions */
+.item-description {
+    -fx-font-size: 14px;
+    -fx-text-fill: #b0b0b0;
+    -fx-padding: 10;
+}

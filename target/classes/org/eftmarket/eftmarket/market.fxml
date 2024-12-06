@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="472.0" maxWidth="670.0" minHeight="472.0" minWidth="670.0" prefHeight="472.0" prefWidth="670.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.eftmarket.eftmarket.controllers.MarketController">
+    <center>
+        <VBox alignment="TOP_CENTER" spacing="20">
+            <!-- Weapons Section -->
+            <VBox spacing="10">
+                <Label styleClass="section-header" text="Weapons" />
+                <ScrollPane fitToHeight="true" hbarPolicy="ALWAYS" styleClass="scroll-pane" vbarPolicy="NEVER">
+                    <HBox fx:id="weaponItemList" alignment="CENTER_LEFT" spacing="15" styleClass="item-list" />
+                </ScrollPane>
+            </VBox>
+            
+            <!-- Ammunition Section -->
+            <VBox spacing="10">
+                <Label styleClass="section-header" text="Ammunition" />
+                <ScrollPane fitToHeight="true" hbarPolicy="ALWAYS" styleClass="scroll-pane" vbarPolicy="NEVER">
+                    <HBox fx:id="ammunitionItemList" alignment="CENTER_LEFT" spacing="15" styleClass="item-list" />
+                </ScrollPane>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>
